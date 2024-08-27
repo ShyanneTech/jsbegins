@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+}
+button {
+  width: 200px;
+}
+.btn {
+  width: 100px;
+}
+.parent {
+  border: 1px solid black;
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+}
+.child {
+  border: 1px solid red;
+  margin: 10px;
+  padding: 5px;
+  width: 80px;
+  height: 60px;
+  box-sizing: border-box;
+}
+.btn {
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px;
+  color: white;
+}
+.container {
+  background: black;
+  color: #fff;
+}
+button {
+  cursor: pointer;
+}

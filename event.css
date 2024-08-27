@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+}
+.container {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+#blaa {
+  background-color: #d94a38;
+  width: 120px;
+  height: 20px;
+  padding: 40px;
+  color: #fff;
+}
+.catch {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}

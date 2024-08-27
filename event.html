@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="event.css" />
+  </head>
+  <body>
+    <div class="container" id="container">
+      <h1>YOU WANT TO KNOW MY BIRTHDAY... okay</h1>
+      <p>Click the button below and maybe you'd find out</p>
+
+      <button onclick="birthdayReveal()">MY birthday is</button>
+      <p id="demo"></p>
+    </div>
+    Enter your name: <input type="text" id="fname" onchange="myFunction()" />
+    <p>
+      When you leave the input field, a function is triggered which transforms
+      the input text to upper case.
+    </p>
+
+    <!-- onmouseover and onmouseout events -->
+    <div id="blaa" onmouseover="mOver(this)" onmouseout="mOut(this)">
+      DON'T GIVE UP
+    </div>
+
+    <div class="catch">
+      <h1>Watch me predict what you did with the button below</h1>
+
+      <button id="btnn">TRY ME!!</button>
+      <p id="result"></p>
+    </div>
+  </body>
+  <script src="event.js"></script>
+</html>
